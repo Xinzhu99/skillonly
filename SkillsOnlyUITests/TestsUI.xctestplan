@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "091AE636-3E1C-4E11-B0B8-E25EF839DF2D",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SkillsOnly.xcodeproj",
+        "identifier" : "6D1AE4732D84711500F6751B",
+        "name" : "SkillsOnlyUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
