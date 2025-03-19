@@ -24,10 +24,7 @@ struct Splashscreen: View {
                     .resizable()
                     .frame(width: 200,height: 80)
                     .padding(.bottom,100)
-                ZStack{
-                    Rectangle()
-                        .frame(width: 300,height: 150)
-                        .foregroundStyle(Color.gray.opacity(0.7))
+                
                     VStack{
                         Text("Tous différents,")
                             .font(.largeTitle)
@@ -35,9 +32,14 @@ struct Splashscreen: View {
                         Text("Tous égaux")
                             .font(.largeTitle)
                             .foregroundStyle(Color.white)
-                    }//fin de mon VStack 2 lignes de slogan
+                    }
+                    .frame(width: 320)
+                    .padding()
+                    .background(Color.black.opacity(0.5))
+                    .cornerRadius(12)
+                    .padding(.bottom, 20)
+                    //fin de mon VStack 2 lignes de slogan
                     
-                }//fin de mon ZStack
                 
             }//fin de mon VStack
         }
