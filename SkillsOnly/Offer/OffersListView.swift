@@ -43,7 +43,7 @@ struct OffersListView: View {
                     }
                 }
                 .searchable(text: $searchText, prompt: "Recherche")
-                .navigationTitle("Offers")
+                .navigationTitle("Offres")
             }
             .toolbar{
                 if isLoggedIn {
@@ -138,5 +138,5 @@ struct OffersListView: View {
 }
 
 #Preview {
-    OffersListView(isLoggedIn: .constant(false), myUserType: .constant(.nilUser), loggedUser: .constant("talentMock1"), loggedTalent: .constant(talentMock1), loggedEmployer: .constant(employerMock1))
+    OffersListView(isLoggedIn: .constant(true), myUserType: .constant(.nilUser), loggedUser: .constant("talentMock1"), loggedTalent: .constant(talentMock1), loggedEmployer: .constant(employerMock1))
 }

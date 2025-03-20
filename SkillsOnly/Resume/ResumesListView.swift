@@ -44,7 +44,7 @@ struct ResumesListView: View {
                     }
                 }
                 .searchable(text: $searchText, prompt: "Recherche")
-                .navigationTitle("Resumes")
+                .navigationTitle("CV")
             }
             .toolbar{
                 if isLoggedIn {
