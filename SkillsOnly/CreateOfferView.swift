@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct CreateOfferView: View {
-    @State private var jobTitle: String = ""
+    @State private var jobTitle: String = "Métallier·ère ferronnier·ère"
     @State private var contractType: String = ""
     @State private var company: String = ""
     @State private var city: String = ""

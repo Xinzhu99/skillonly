@@ -1,5 +1,4 @@
 .DS_Store
 
 ## User settings
-xcuserdata/
-
+**/xcuserdata/
