@@ -13,7 +13,7 @@ let experienceMock1 = Experience(
     name: "Test iOS",
     datesBegin: "2022.10.22",
     dateEnd: "2024.07.14",
-    description: "Je testais des applications iOS pendent deux ans dans une grande entreprise du secteur inductriel."
+    description: "Je testais des applications iOS pendent deux ans dans une grande entreprise du secteur industriel."
 )
 
 let experienceMock2 = Experience(
@@ -53,7 +53,7 @@ let educationMock1 = Education(
     name: "Ingénieur",
     datesBegin: "2019.09.02",
     dateEnd: "2021.07.08",
-    description: "Ingénieur en informatique"
+    description: "Ingénieur·e en informatique"
 )
 
 let educationMock2 = Education(
@@ -67,9 +67,9 @@ let resumeEmpty = Resume(jobTitle: "", experience: [], descrip: "", image: "", t
 
 let resumeMock1 = Resume(
     id: UUID(),
-    jobTitle: "Développeur iOS",
+    jobTitle: "Développeur·se iOS",
     experience: [experienceMock1, experienceMock2],
-    descrip: "Développeur passionné par la technologie",
+    descrip: "Développeur·se passionné·e par la technologie",
     image: "apple.terminal.circle.fill",
     tags: ["iOS", "Swift", "Xcode"],
     city: "Paris",
@@ -97,9 +97,9 @@ let resumeMock2 = Resume(
 
 let resumeMock3 = Resume(
     id: UUID(),
-    jobTitle: "Ingénieur en Intelligence Artificielle",
+    jobTitle: "Ingénieur·e en Intelligence Artificielle",
     experience: [],
-    descrip: "Passionné par le Machine Learning et le Deep Learning.",
+    descrip: "Passionné·e par le Machine Learning et le Deep Learning.",
     image: "apple.image.playground.fill",
     tags: ["Python", "TensorFlow", "IA"],
     city: "Toulouse",
@@ -113,9 +113,9 @@ let resumeMock3 = Resume(
 
 let resumeMock4 = Resume(
     id: UUID(),
-    jobTitle: "Chef de Projet Marketing Digital",
+    jobTitle: "Chef·fe de Projet Marketing Digital",
     experience: [],
-    descrip: "Expert en stratégie digitale, SEO et gestion des campagnes publicitaires.",
+    descrip: "Expert·e en stratégie digitale, SEO et gestion des campagnes publicitaires.",
     image: "checkmark.seal.text.page.fill.rtl",
     tags: ["Marketing", "SEO", "Google Ads"],
     city: "Marseille",
@@ -128,7 +128,7 @@ let resumeMock4 = Resume(
 
 let resumeMock5 = Resume(
     id: UUID(),
-    jobTitle: "Consultant en Cybersécurité",
+    jobTitle: "Consultant·e en Cybersécurité",
     experience: [],
     descrip: "Spécialiste en sécurité des systèmes informatiques et en prévention des cyberattaques.",
     image: "oar.2.crossed.circle.fill",
@@ -145,7 +145,7 @@ let resumeMock6 = Resume(
     id: UUID(),
     jobTitle: "Médecin Généraliste",
     experience: [],
-    descrip: "Médecin expérimenté, passionné par la santé et le bien-être des patients.",
+    descrip: "Médecin expérimenté·e, passionné·e par la santé et le bien-être des patients.",
     image: "waveform.path.ecg.text.page.fill",
     tags: ["Médecine", "Diagnostic", "Soins"],
     city: "Nice",
@@ -160,7 +160,7 @@ let resumeMock7 = Resume(
     id: UUID(),
     jobTitle: "Architecte",
     experience: [],
-    descrip: "Créatif et passionné par le design et la conception d'espaces modernes.",
+    descrip: "Créatif·ve et passionné·e par le design et la conception d'espaces modernes.",
     image: "oar.2.crossed",
     tags: ["Architecture", "Design", "Urbanisme"],
     city: "Bordeaux",
@@ -175,7 +175,7 @@ let resumeMock8 = Resume(
     id: UUID(),
     jobTitle: "Avocat en Droit des Affaires",
     experience: [],
-    descrip: "Expert en droit des entreprises et en négociation de contrats.",
+    descrip: "Expert·e en droit des entreprises et en négociation de contrats.",
     image: "hammer.circle.fill",
     tags: ["Droit", "Entreprise", "Contrats"],
     city: "Strasbourg",
@@ -188,9 +188,9 @@ let resumeMock8 = Resume(
 
 let resumeMock9 = Resume(
     id: UUID(),
-    jobTitle: "Enseignant en Mathématiques",
+    jobTitle: "Enseignant·e en Mathématiques",
     experience: [],
-    descrip: "Pédagogue passionné, spécialisé en algèbre et en analyse.",
+    descrip: "Pédagogue passionné·e, spécialisé·e en algèbre et en analyse.",
     image: "person.circle",
     tags: ["Mathématiques", "Pédagogie", "Éducation"],
     city: "Lyon",

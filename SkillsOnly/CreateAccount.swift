@@ -60,7 +60,7 @@ struct CreateAccount: View {
             }//fin de HStack mdp vérification
             
             if pressedSignup {
-                Text("Error")
+                Text("Erreur")
                     .foregroundStyle(.red)
             }
             Button{

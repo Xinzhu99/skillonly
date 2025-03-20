@@ -24,13 +24,13 @@ struct MainView: View {
             switch myUserType {
             case .talent:
                 
-                Tab("Offers list", systemImage: "suitcase", value: 1) {
+                Tab("Liste d'offres", systemImage: "suitcase", value: 1) {
                     OffersListView(isLoggedIn: $isLoggedIn, myUserType: $myUserType, loggedUser: $loggedUser, loggedTalent: $loggedTalent, loggedEmployer: $loggedEmployer)
                 }
                 
             case .employer:
                 
-                Tab("Resumes list", systemImage: "magnifyingglass", value: 1){
+                Tab("Liste de CVs", systemImage: "magnifyingglass", value: 1){
                     ResumesListView(isLoggedIn: $isLoggedIn, myUserType: $myUserType, loggedUser: $loggedUser, loggedTalent: $loggedTalent, loggedEmployer: $loggedEmployer)
                 }
             case .nilUser:
@@ -68,12 +68,12 @@ struct MainView: View {
             switch myUserType {
             case .talent:
                 
-                Tab("Create CV", systemImage: "text.document", value: 3){
+                Tab("Créer CV", systemImage: "text.document", value: 3){
                     CreateCvView()
                     }
 
             case .employer:
-                Tab("Create offer", systemImage: "folder", value: 3){
+                Tab("Créer offre", systemImage: "folder", value: 3){
                     CreateOfferView()
                     }
                     

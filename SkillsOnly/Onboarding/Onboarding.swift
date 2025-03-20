@@ -59,7 +59,7 @@ struct Onboarding: View {
                     Button{
                         myUserType = .employer
                     }label:{
-                        Text("Recruteur")
+                        Text("Recruteur·se")
                     }
                     .frame(width: 140, height: 30) // Taille uniforme
                     .padding()

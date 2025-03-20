@@ -64,6 +64,6 @@ struct MyPickerView: View {
 
 struct MyPickerView_Previews: PreviewProvider {
     static var previews: some View {
-        MyPickerView(listOfSelectedItems: .constant([]), listOfChoiceItems: listOfContracts, listOfChoicesTitle: "Contract")
+        MyPickerView(listOfSelectedItems: .constant([]), listOfChoiceItems: listOfContracts, listOfChoicesTitle: "Contrat")
     }
 }

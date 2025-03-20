@@ -18,7 +18,7 @@ let offerMock1 = Offers(
     salaryMax: 300000,
     tags: ["iOS", "Swift"],
     contractType: "CDI",
-    description: "- Développer l'application. \r- Réaliser les tests, corriger les bugs. \r- Déployer l'application sur l'App Store.Réaliser le suivi, la prise en main par les utilisateurs. \r- Collaborer avec les équipes design et backend pour l'ajout de nouvelles fonctionnalités.",
+    description: "- Développer l'application. \r- Réaliser les tests, corriger les bugs. \r- Déployer l'application sur l'App Store. Réaliser le suivi, la prise en main par les utilisateurs. \r- Collaborer avec les équipes design et backend pour l'ajout de nouvelles fonctionnalités.",
     profile : "- Architecture iOS : Swift(99%), architecture propre + MVVM, SPM multi-module\r- Tests : Tests unitaires, tests E2E\r- CI/CD : Fastlane, Bitrise\r- Outils : Xcode, SPM, Github, SwiftLint, Firebase\r- Produits : application iOS, widgets iOS",
     postedAt: "2025.02.25",
     applications: []
@@ -33,7 +33,7 @@ let offerMock2 = Offers(
     salaryMax: 800000,
     tags: ["Android", "Kotlin"],
     contractType: "CDI",
-    description: "We need a developer to work on our Android app",
+    description: "Nous cherchons un·e developpeur·se pour travailler sur notre application Android",
     profile : "",
     postedAt: "2025.03.01",
     applications: []
