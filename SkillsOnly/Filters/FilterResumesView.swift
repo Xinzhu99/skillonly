@@ -26,8 +26,8 @@ enum skillsFilter: String, CaseIterable, Identifiable {
 
 enum jobTitlesFilter: String, CaseIterable, Identifiable {
     var id : String { UUID().uuidString}
-    case devios = "Développeur iOS"
-    case devandroid = "Développement Android"
+    case devios = "Développeur·se iOS"
+    case devandroid = "Développeur·se Android"
     case design = "Designer UX/UI"
     case medecin = "Médecin Généraliste"
 }

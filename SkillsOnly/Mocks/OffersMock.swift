@@ -12,7 +12,7 @@ var offersList : [Offers] = [offerMock1, offerMock2, offerMock3, offerMock4, off
 let offerMock1 = Offers(
     company: "Apple",
     image: "apple.logo",
-    jobTitle: "Dev iOS",
+    jobTitle: "Développeur·se iOS",
     city: "New York",
     salaryMin: 150000,
     salaryMax: 300000,
@@ -27,7 +27,7 @@ let offerMock1 = Offers(
 let offerMock2 = Offers(
     company: "Google",
     image: "a.circle",
-    jobTitle: "Dev Android",
+    jobTitle: "Développeur·se Android",
     city: "Paris",
     salaryMin: 20000,
     salaryMax: 800000,
@@ -42,7 +42,7 @@ let offerMock2 = Offers(
 let offerMock3 = Offers(
     company: "Apple",
     image: "apple.logo",
-    jobTitle: "Développement iOS",
+    jobTitle: "Développeur·se iOS",
     city: "Paris",
     salaryMin: 45000,
     salaryMax: 60000,
@@ -57,7 +57,7 @@ let offerMock3 = Offers(
 let offerMock4 = Offers(
     company: "Google",
     image: "a.circle",
-    jobTitle: "Développement Android",
+    jobTitle: "Développeur·se Android",
     city: "Lyon",
     salaryMin: 42000,
     salaryMax: 58000,
